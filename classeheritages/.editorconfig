@@ -1,0 +1,7 @@
+﻿[*.cs]
+
+# IDE0022: Utiliser un corps de bloc pour les méthodes
+csharp_style_expression_bodied_methods = true:silent
+
+# IDE0022: Utiliser un corps d'expression pour les méthodes
+dotnet_diagnostic.IDE0022.severity = silent

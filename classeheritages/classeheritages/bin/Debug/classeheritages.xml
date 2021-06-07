@@ -1,0 +1,153 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>classeheritages</name>
+    </assembly>
+    <members>
+        <member name="T:classeheritages.App">
+            <summary>
+            Logique d'interaction pour App.xaml
+            </summary>
+            <summary>
+            App
+            </summary>
+        </member>
+        <member name="M:classeheritages.App.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="M:classeheritages.App.Main">
+            <summary>
+            Application Entry Point.
+            </summary>
+        </member>
+        <member name="T:classeheritages.CHeritages.Diffusion">
+            <summary>
+            classe abstraite
+            </summary>
+        </member>
+        <member name="F:classeheritages.CHeritages.Diffusion.titre">
+            <summary>
+            /titre de la diffusion
+            </summary>
+        </member>
+        <member name="F:classeheritages.CHeritages.Diffusion.annee">
+            <summary>
+            annee
+            </summary>
+        </member>
+        <member name="M:classeheritages.CHeritages.Diffusion.#ctor(System.String,System.Int32)">
+            <summary>
+            Constructeur avec parametre
+            </summary>
+            <param name="titre"></param>
+            <param name="annee"></param>
+        </member>
+        <member name="P:classeheritages.CHeritages.Diffusion.Titre">
+            <summary>
+            encapsulation
+            </summary>
+        </member>
+        <member name="M:classeheritages.CHeritages.Diffusion.getTitre">
+            <summary>
+            getter sur titre
+            </summary>
+            <returns>titre</returns>
+        </member>
+        <member name="P:classeheritages.CHeritages.Diffusion.Annee">
+            <summary>
+            annee propriete
+            </summary>
+        </member>
+        <member name="M:classeheritages.CHeritages.Diffusion.getAnnee">
+            <summary>
+            getter sur annee
+            </summary>
+            <returns>annee</returns>
+        </member>
+        <member name="M:classeheritages.CHeritages.Diffusion.getInfos">
+            <summary>
+            methode getinfos
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:classeheritages.CHeritages.Film">
+            <summary>
+            class Film herite de diffusion
+            </summary>
+        </member>
+        <member name="P:classeheritages.CHeritages.Film.Recette">
+            <summary>
+            encapsulation
+            </summary>
+        </member>
+        <member name="M:classeheritages.CHeritages.Film.#ctor(System.String,System.Int32,System.Int32)">
+            <summary>
+            constructeur
+            </summary>
+            <param name="titre"></param>
+            <param name="annee"></param>
+            <param name="recette"></param>
+        </member>
+        <member name="M:classeheritages.CHeritages.Film.getInfos">
+            <summary>
+             methode de la classe mere
+            </summary>
+            <returns>les proprietes prives ou protectrices</returns>
+        </member>
+        <member name="T:classeheritages.CHeritages.Serie">
+            <summary>
+            classe serie herite de Diffusion
+            </summary>
+        </member>
+        <member name="P:classeheritages.CHeritages.Serie.NBepisodes">
+            <summary>
+            definir les proprietes
+            </summary>
+        </member>
+        <member name="M:classeheritages.CHeritages.Serie.#ctor(System.String,System.Int32,System.Int32)">
+            <summary>
+            constructeur
+            </summary>
+            <param name="titre"></param>
+            <param name="annee"></param>
+            <param name="nBepisodes"></param>
+        </member>
+        <member name="M:classeheritages.CHeritages.Serie.getInfos">
+            <summary>
+            methode redefini par rapport a la methode de la classe mere
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:classeheritages.MainWindow">
+            <summary>
+            Logique d'interaction pour MainWindow.xaml
+            </summary>
+            <summary>
+            MainWindow
+            </summary>
+        </member>
+        <member name="M:classeheritages.MainWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:classeheritages.Properties.Resources">
+            <summary>
+              Une classe de ressource fortement typée destinée, entre autres, à la consultation des chaînes localisées.
+            </summary>
+        </member>
+        <member name="P:classeheritages.Properties.Resources.ResourceManager">
+            <summary>
+              Retourne l'instance ResourceManager mise en cache utilisée par cette classe.
+            </summary>
+        </member>
+        <member name="P:classeheritages.Properties.Resources.Culture">
+            <summary>
+              Remplace la propriété CurrentUICulture du thread actuel pour toutes
+              les recherches de ressources à l'aide de cette classe de ressource fortement typée.
+            </summary>
+        </member>
+    </members>
+</doc>
